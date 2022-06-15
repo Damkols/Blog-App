@@ -1,0 +1,50 @@
+.homepage {
+  width: min(95%, 1300px);
+  margin-inline: auto;
+}
+
+.login-message {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.login-message {
+  font-size: 3.25rem;
+}
+
+.login-message > h1 {
+  font-size: 5.25rem;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 0;
+  font-weight: 900;
+  color: rgb(17, 17, 17);
+  text-decoration: underline;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.login-message > p {
+  padding: 0.5rem 0;
+  line-height: 1.5em;
+  width: 50%;
+  font-size: 1.25rem;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+}
+
+.login-button {
+  width: 300px;
+  margin: 0.5rem auto 0px auto;
+  padding: 1rem 0;
+  border: none;
+  background: rgb(17, 17, 17);
+  font-family: "Jost", sans-serif;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
